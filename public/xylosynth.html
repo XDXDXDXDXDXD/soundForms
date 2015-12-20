@@ -31,9 +31,12 @@
         #map{
           z-index: 999;
           position: absolute;
-          width: 80%;
-          height: 101%;
-          margin-left: 165px;
+          width: 56%;
+          height: 100%;
+          margin-top: 280px;
+          transform: rotate(180deg) scaleX(-1);
+          margin-left: 480px;
+          filter: FlipH;
      }
     </style>
   </head>
@@ -125,7 +128,7 @@
                 ];
 
 
-    var beatBank = [{sequence: [23,0,4,8,12,16,21,8],isPlaying:false, numpad:1},
+    var beatBank = [{sequence: [23,0,4,8,12,16],isPlaying:false, numpad:1},
                     {sequence: [22,0,4,8,12,16,21,3,6,9,12,18,20,2,6,10,14,18],isPlaying:false, numpad:2},
                     {sequence: [21,3,6,9,12,18,20,2,6,10,14,18],isPlaying:false, numpad:3},
                     {sequence: [23,0,4,8,12,16,22,0,4,8,12,16,21,3,6,9,12,18,20,2,6,10,14,18],isPlaying:false, numpad:4},
